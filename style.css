@@ -1,0 +1,216 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #0B1D26;
+    color: white;
+    font-family: 'Gilroy';
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header{
+    background-image: url(img/background.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding-top: 60px;
+    align-items: center;
+}
+.logo{
+    font-family: 'Chronicle Display';
+    font-size: 32px;
+    line-height: 38px;
+}
+.nav{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.nav-link:not(:last-child){
+    padding-right: 40px;
+}
+
+.nav a:visited{
+    color: white;
+}
+
+.header-title{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: #FBD784;
+    display: flex;
+    align-items: center;
+}
+
+.line{
+height: 2px;
+width: 8%;
+background: #FBD784;
+margin-right: 20px;
+}
+
+.header-content{
+    padding-top: 25vh;
+    width: 76vw;
+    margin-left: 17%;
+}
+
+.header-text{
+    font-family: 'Chronicle Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 88px;
+    line-height: 100px;
+    text-transform: capitalize;
+}
+
+.account{
+    display: flex;
+    align-items: center;
+}
+.account a{
+    margin-left: 10px;
+    font-size: 17px;
+    line-height: 21px;
+}
+
+.contents{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    padding: 0 150px;
+    gap: 70px;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.content-reverser{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    position: relative;
+}
+
+.content-image-reverser{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.content1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    position: relative;
+}
+
+.content-image1{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.content3{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    position: relative;
+}
+
+.content-image3{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.count{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 240px;
+    line-height: 240px;
+    opacity: 0.1;
+    position:absolute;
+    top: -117px;
+    left: -120px;
+}
+.content-header{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: #FBD784;
+    display: flex;
+    align-items: center;
+}
+
+.content-title{
+    font-family: 'Chronicle Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 77px;
+}
+
+.content-text{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(1,1fr);
+    gap: 70px;
+    padding: 100px 50px 0 50px;
+}
+
+.footer-right{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(1,1fr);
+}
+
+.text{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+}
+.copy{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    opacity: 0.5;
+    margin-top: 85px;
+}
+
+ul{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    list-style-type: none;
+}
+
+.menu-title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FBD784;
+}
